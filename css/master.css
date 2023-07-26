@@ -1,9 +1,10 @@
 *{
    box-sizing: border-box;
-   margin: 0;
    padding: 0;
    background-color: #EFF5F5;    
    font-family: 'Abyssinica SIL', serif;
+   text-decoration: none;
+   color: black;
 }
 img{
    width: 100%;
@@ -28,17 +29,19 @@ img{
 }
 
 #menu{
-   width: 60%;
+   width: 60% 
 }
 
 #opciones{
    display: flex;
    justify-content: space-around;
    font-family: 'Abyssinica SIL', serif;
+   
 }
 
 ul{
    list-style-type: none;
+   
 }
 
 .container {
@@ -55,24 +58,37 @@ ul{
 article {
   display: flex;
   align-items: center;
-  margin-bottom: 20px; /* Agrega un margen entre cada conjunto de imagen y texto */
+  margin-bottom: 200px; 
   
 }
 
+
+
 .image {
-  margin-right: 50px; /* Ajusta el espacio entre la imagen y el texto como desees */
-  width: 40%;
+  margin-right: 50px; 
+  width: 143%;
   height: 40%;
   object-fit: cover;
   border-radius: 2rem;
   
 }
   
-
-.text {
- 
-  
+.image2{
+  margin-right: 50px; 
+  width: 180%;
+  height: 40%;
+  object-fit: cover;
+  border-radius: 2rem;
 }
+
+.image3{
+  margin-right: 50px; 
+  width: 222%;
+  height: 40%;
+  object-fit: cover;
+  border-radius: 2rem;
+}
+
 
 section.untre{
   text-align: center;
@@ -88,6 +104,7 @@ section.untre{
   margin-bottom: 100px;
   text-align: center;
 
+
 }
 
 .contecolum{
@@ -97,7 +114,7 @@ section.untre{
 }
 
 .columna1{
-  background-color: aquamarine;
+  background-color: #1f8a70;
   padding: 20px;
   margin: 0 50px;
   flex: 1;
@@ -108,7 +125,7 @@ section.untre{
 }
 
 .columna2{
-  background-color: #367b7b;
+  background-color: #1f8a70;
   padding: 20px;
   margin: 0 50px;
   max-width: 400px;
@@ -121,3 +138,36 @@ section.untre{
   margin-bottom: 20px;
   
 }
+
+.textcolum1{
+  background-color: #1f8a70;
+}
+
+.instituto{
+  margin-top: 135px;
+  font-size: 40px;
+}
+
+
+footer {
+  background-color: #EFF5F5;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3%;
+}
+
+
+
+.redes-sociales img {
+  width: 70px; 
+  margin: 10px; 
+}
+
+
+.contacto {
+  margin-top: 20px; 
+}
+
